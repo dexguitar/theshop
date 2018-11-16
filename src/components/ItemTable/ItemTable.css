@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+img {
+  max-height: 160px;
+}
+
+button {
+  color: #fff;
+  background-color: #1dd1a1;
+  border-radius: 25px;
+  padding: 5px;
+  cursor: pointer;
+  border: transparent;
+  outline: transparent;
+  box-shadow: 0 1px 1px #ccc;
+}
+
+button:hover {
+  background-color: #1ee1a1;
+}
