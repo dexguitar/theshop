@@ -17,8 +17,7 @@ class App extends Component {
     searchPrice: {
       min: null,
       max: null
-    },
-    show: 3
+    }
   };
 
   handleShowSubmit = event => {
@@ -143,14 +142,13 @@ class App extends Component {
   render() {
     return (
       <div className="page-container">
-        <h1>Welcome to ShopMeNow!</h1>
+        <h1>Welcome to The Shop!</h1>
         <Filters
           updateTitleSearch={this.updateTitleSearch}
           titleSearch={this.titleSearch}
           updateMinSearchPrice={this.updateMinSearchPrice}
           updateMaxSearchPrice={this.updateMaxSearchPrice}
           priceSearch={this.priceSearch}
-          showSubmit={this.handleShowSubmit}
         />
         <ItemTable
           data={this.state.data}

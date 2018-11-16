@@ -2,7 +2,6 @@ import React from "react";
 
 import TitleFilter from "./TitleFilter/TitleFilter";
 import PriceFilter from "./PriceFilter/PriceFilter";
-import ShowFilter from "./ShowFilter/ShowFilter";
 
 import "./Filters.css";
 
@@ -17,7 +16,6 @@ const filters = props => (
       updateMaxSearchPrice={props.updateMaxSearchPrice}
       priceSearch={props.priceSearch}
     />
-    <ShowFilter showSubmit={props.showSubmit} />
   </div>
 );
 

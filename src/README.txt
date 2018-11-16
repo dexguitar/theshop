@@ -6,6 +6,6 @@
 
 
 Launch:
-Execute in the terminal with administrator's privileges:
+Run in the terminal with administrator's privileges:
 1) npm install
 2) npm start
